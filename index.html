@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+<div>
+
+    <form id="form" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+        <input type="number" id="quantity"placeholder="Currency Quantity" class="bg-gray-200 text-gray-700 border border-blue-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"required>
+        <select id ="currency-select-1" class="appearance-none bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline" required>
+
+        </select>
+        <p>TO</p>
+        <select id ="currency-select-2" class="appearance-none bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline"required>
+
+        </select>
+        <input type="submit" id ="form-button2" class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+
+    </form>
+    <div class="flex items-center bg-blue-500 text-white text-sm font-bold px-4 py-3">
+        <div id="display-one"></div>
+        <p> = </p>
+        <div id="display-two"></div>
+    </div>
+
+</div>
+<script src="convert.js"></script>
+</body>
+</html>
